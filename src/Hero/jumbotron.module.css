@@ -1,0 +1,25 @@
+.logo{
+    width: 500px;
+    margin: 50px;
+}
+.container{
+    background-image: url(../images/desktop/image-hero.jpg);
+    height: 90vh;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navLinks{
+    display: flex;
+    margin: 50px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1em;
+}
