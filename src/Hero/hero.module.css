@@ -10,7 +10,10 @@ a{
 }
 .container{
     background-image: url(../images/desktop/image-hero.jpg);
-    height: 90vh;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .flex{
     display: flex;
