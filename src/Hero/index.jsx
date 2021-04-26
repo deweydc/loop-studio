@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from './logo.svg';
-import styles from './jumbotron.module.css';
+import styles from './hero.module.css';
 
 export default function Hero() {
     return (
@@ -11,25 +11,25 @@ export default function Hero() {
                     <img src={Logo} alt="" />
                 </div>
                 <div className={styles.navLinks}>
-                    <div className="nav-link">
+                    <div className={styles.navLink}>
                         <a href="#">About</a>
                     </div>
-                    <div className="nav-link">
+                    <div className={styles.navLink}>
                         <a href="#">Careers</a>
                     </div>
-                    <div className="nav-link">
+                    <div className={styles.navLink}>
                         <a href="#">Event</a>
                     </div>
-                    <div className="nav-link">
+                    <div className={styles.navLink}>
                         <a href="#">Products</a>
                     </div>
-                    <div className="nav-link">
+                    <div className={styles.navLink}>
                         <a href="#">Support</a>
                     </div>
                 </div>
             </div>
 
-            <h1 className="title">Immersive experiences that deliver</h1>
+            <h1 className={styles.title}>Immersive experiences that deliver</h1>
         </div>
 
 
