@@ -1,3 +1,28 @@
+
 .nav__header{
     background-image: url(./images/desktop/image-hero.jpg);
 }
+.about__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+.about__content > img {
+    margin: 0 auto 20px
+}
+
+.about__title{
+    font-size: 5em;
+    margin: 20px auto; 
+}
+.about__text{
+    font-size: 1.3em;
+    width: 700px;
+    text-align: center;
+    margin: 20px auto 60px;
+}
+
