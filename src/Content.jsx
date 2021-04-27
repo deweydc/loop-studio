@@ -23,7 +23,7 @@ function Content() {
                 </div>
 
                 <div className="content__showcase">
-                    {/* title */}
+
                     <div className="showcase__header">
                         <h2 className="content__showcase__title">
                             OUR CREATIONS
@@ -52,7 +52,7 @@ function Content() {
                         <div className="showcase__img-container">
                             <img className='showcase__img' src={require('./images/desktop/image-grid.jpg').default} alt="test" />
                             <div className="showcase__title-container">
-                                <h3 className='showcase__img-title'>The Grid</h3>
+                                <h3 className='showcase__img-title'>The <br /> Grid</h3>
                             </div>                        </div>
                         <div className="showcase__img-container">
                             <img className='showcase__img' src={require('./images/desktop/image-from-above.jpg').default} alt="test" />

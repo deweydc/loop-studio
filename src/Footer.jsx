@@ -15,7 +15,7 @@ function Footer() {
 
                 <div className="footer__left-side">
                     <a href="#">
-                        <img src={require('./Hero/logo.svg').default} alt="test" />
+                        <img src={require('./images/logo.svg').default} alt="test" />
                     </a>
 
                     <div className='footer__nav-links'>
@@ -64,7 +64,7 @@ function Footer() {
                     <div className="footer__copyright">
                         <p>
                             &#169; 2021 Loopstudios. All rights reserved.
-                    </p>
+                        </p>
                     </div>
                 </div>
 
