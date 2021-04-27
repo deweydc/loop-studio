@@ -1,6 +1,7 @@
 import './App.css';
 import Hero from './Hero';
 import Content from './Content';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -8,10 +9,12 @@ function App() {
 
       <Hero />
       <Content />
+      <Footer />
+
       {/* <Nav />
       
       <Showcase />
-      <Footer /> */}
+       */}
 
 
     </div>
