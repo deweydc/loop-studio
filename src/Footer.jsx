@@ -13,9 +13,10 @@ function Footer() {
         <div className='footer'>
             <div className="container">
 
-
                 <div className="footer__left-side">
-                    <img src={require('./Hero/logo.svg').default} alt="test" />
+                    <a href="#">
+                        <img src={require('./Hero/logo.svg').default} alt="test" />
+                    </a>
 
                     <div className='footer__nav-links'>
                         <div className='footer__nav-link'>
@@ -38,23 +39,27 @@ function Footer() {
 
                 <div className="footer__right-side">
                     <div className="footer__social-icons">
-                        <FacebookIcon
-                            className='social-icon'
-                            fontSize="large"
-                            style={{ marginLeft: 10 }}
-                        />
-                        <TwitterIcon
-                            fontSize="large"
-                            style={{ marginLeft: 10 }}
-                        />
-                        <PinterestIcon
-                            fontSize="large"
-                            style={{ marginLeft: 10 }}
-                        />
-                        <InstagramIcon
-                            fontSize="large"
-                            style={{ marginLeft: 10 }}
-                        />
+                        <a href="">
+                            <FacebookIcon
+                                className='social-icon'
+                                fontSize="large"
+                            />
+                        </a>
+                        <a href="">
+                            <TwitterIcon
+                                fontSize="large"
+                            />
+                        </a>
+                        <a href="">
+                            <PinterestIcon
+                                fontSize="large"
+                            />
+                        </a>
+                        <a href="">
+                            <InstagramIcon
+                                fontSize="large"
+                            />
+                        </a>
                     </div>
                     <div className="footer__copyright">
                         <p>

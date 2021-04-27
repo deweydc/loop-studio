@@ -29,11 +29,9 @@ function Content() {
                             OUR CREATIONS
                         </h2>
 
-                        {/* button */}
                         <button className="showcase__btn">SEE ALL</button>
                     </div>
 
-                    {/* img gallery */}
                     <div className="showcase__img-gallery">
                         <div className="showcase__img-container">
                             <img className='showcase__img' src={require('./images/desktop/image-deep-earth.jpg').default} alt="test" />

@@ -11,11 +11,12 @@
 }
 .footer__left-side > img {
     width: 150px;
-    margin: 10px;
+    
 }
 
 .footer__nav-links{
-    display: flex;    
+    display: flex;  
+    margin-top: 10px;  
 }
 .footer__nav-link{
     /* font-size: .75em; */
@@ -37,7 +38,6 @@
 .footer__social-icons{
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 10px;
 }
 
 .social-icon{
