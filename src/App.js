@@ -3,12 +3,15 @@ import Hero from './Hero';
 import Content from './Content';
 import Footer from './Footer';
 import About from './About';
+import Careers from './Careers';
+import Event from './Event';
+import Products from './Products';
+import Support from './Support';
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 function App() {
@@ -17,14 +20,34 @@ function App() {
 
       <div className="App">
 
-        <Hero />
-        <Content />
-        <Footer />
 
-        <About />
+
 
       </div>
 
+      <Switch>
+        <Route path='/about'>
+          <About />
+        </Route>
+        <Route path='/careers'>
+          <Careers />
+        </Route>
+        <Route path='/event'>
+          <Event />
+        </Route>
+        <Route path='/products'>
+          <Products />
+        </Route>
+        <Route path='/support'>
+          <Support />
+        </Route>
+        <Route path="/">
+          <Hero />
+          <Content />
+
+        </Route>
+      </Switch>
+      <Footer />
 
 
 

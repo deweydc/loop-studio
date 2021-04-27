@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from './images/logo.svg';
 import './Hero.css';
-import Nav from './Nav'
+import Nav from './Nav';
 
 export default function Hero() {
     return (

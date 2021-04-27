@@ -6,10 +6,10 @@ import './About.css'
 function About() {
     return (
         <div className='about__container'>
-            <div className="about__header">
+            <div className="nav__header">
                 <Nav />
             </div>
-
+            <h1>About Page</h1>
         </div>
     )
 }

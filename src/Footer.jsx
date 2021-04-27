@@ -6,7 +6,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import PinterestIcon from '@material-ui/icons/Pinterest';
 import InstagramIcon from '@material-ui/icons/Instagram';
 
-// import { FacebookIcon } from '@material-ui/icons';
+import { Link } from "react-router-dom";
 
 function Footer() {
     return (
@@ -20,19 +20,19 @@ function Footer() {
 
                     <div className='footer__nav-links'>
                         <div className='footer__nav-link'>
-                            <a href="#">About</a>
+                            <Link to="/about">About</Link>
                         </div>
                         <div className='footer__nav-link'>
-                            <a href="#">Careers</a>
+                            <Link to="/careers">Careers</Link>
                         </div>
                         <div className='footer__nav-link'>
-                            <a href="#">Event</a>
+                            <Link to="/event">Event</Link>
                         </div>
                         <div className='footer__nav-link'>
-                            <a href="#">Products</a>
+                            <Link to="/products">Products</Link>
                         </div>
                         <div className='footer__nav-link'>
-                            <a href="#">Support</a>
+                            <Link to="support">Support</Link>
                         </div>
                     </div>
                 </div>
@@ -40,25 +40,16 @@ function Footer() {
                 <div className="footer__right-side">
                     <div className="footer__social-icons">
                         <a href="">
-                            <FacebookIcon
-                                className='social-icon'
-                                fontSize="large"
-                            />
+                            <FacebookIcon fontSize="large" />
                         </a>
                         <a href="">
-                            <TwitterIcon
-                                fontSize="large"
-                            />
+                            <TwitterIcon fontSize="large" />
                         </a>
                         <a href="">
-                            <PinterestIcon
-                                fontSize="large"
-                            />
+                            <PinterestIcon fontSize="large" />
                         </a>
                         <a href="">
-                            <InstagramIcon
-                                fontSize="large"
-                            />
+                            <InstagramIcon fontSize="large" />
                         </a>
                     </div>
                     <div className="footer__copyright">
