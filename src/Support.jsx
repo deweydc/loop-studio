@@ -1,75 +1,37 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
-import './Support.css'
+import './Support.css';
+import SupportForm from './SupportForm';
+
+
 
 
 function Support() {
 
-    // * state
-    const [email, setEmail] = useState("");
-    const [name, setName] = useState("");
-    const [phone, setPhone] = useState("");
-    const [comment, setComment] = useState("");
+    // const [isSubmitting, setIsSubmitting] = useState(false);
+    const [isSubmitted, setIsSubmitted] = useState(false);
 
 
-
-    const handleSubmit = e => {
-        alert(`Thank you! Your message has been sent.`)
-        e.preventDefault();
+    function submitForm() {
+        setIsSubmitted(true);
     }
 
-
     return (
+
         <div className='Products__container'>
             <div className="nav__header">
                 <Nav />
             </div>
-            <div className="support__contain">
-                <h1>We would 💜 to hear from you.</h1>
+            <div className="support__container">
+
 
                 <div className="form">
-                    <form onSubmit={handleSubmit}>
-                        {/* name input */}
-                        <label for="name">
-                            <input
-                                type="text"
-                                name='name'
-                                placeholder='Name'
-                                onChange={e => setName({ name: e.target.value })}
-                            />
-                        </label>
-                        {/* email input */}
-                        <label for="email">
-                            <input
-                                type="text"
-                                name='email'
-                                placeholder='Email'
-                                onChange={e => setEmail({ email: e.target.value })}
-                            />
-                        </label>
-                        {/* phone number input */}
-                        <label for="phone">
-                            <input
-                                type="text"
-                                name='phone'
-                                placeholder='Phone'
-                                onChange={e => setPhone({ phone: e.target.value })}
-                            />
-                        </label>
+                    {!isSubmitted ? (<SupportForm submitForm={submitForm} />) :
+                        <div className="form-success">
+                            <h1>Thank you! Your message has been sent.</h1>
+                        </div>
+                    }
 
-                        <label for="comments">
-                            <textarea
-                                type='text'
-                                placeholder='Comments:'
-                                name="comments"
-                                id="comments"
-                                cols="50"
-                                rows="1"
-                                onChange={e => setComment({ comment: e.target.value })}
-                            />
-                        </label>
-                        <button type='submit' className='support__btn'>Contact Us!</button>
-                    </form>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@
     border: 1px solid black;
 } */
 form{
-    min-height: 50vh;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     border-style: solid;
@@ -11,9 +11,9 @@ form{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
-    padding-top: 40px;
+    padding: 40px;
 }
-.support__contain{
+.support__container{
     max-width: 700px;
     margin: 0 auto;
 }
@@ -26,13 +26,13 @@ form > label > input{
     border-bottom: 2px solid rgb(129, 129, 129);
     width: 500px;
 }
-.support__contain > h1{
+.support__container > h1{
     text-align: center;
     margin: 50px auto;
     font-size: 3rem;
 }
 textarea{
-    margin: 10px auto 30px;
+    margin: 10px auto 3px;
     width: 500px;
     border: none;
     border-bottom: 2px solid rgb(129, 129, 129);
@@ -61,5 +61,17 @@ label > span{
     color: white;
     font-size: 1.5rem;
     font-weight: 800;
+}
+
+.form-success{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto 0;
+}
+
+.form-success h1{
+    font-size: 3em;
+    text-align: center;
 }
 
