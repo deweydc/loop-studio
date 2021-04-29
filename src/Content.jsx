@@ -1,6 +1,7 @@
 import React from 'react';
 import VRImage from './images/desktop/image-interactive.jpg';
 import './Content.css'
+import { Link } from 'react-router-dom';
 
 
 function Content() {
@@ -29,7 +30,7 @@ function Content() {
                             OUR CREATIONS
                         </h2>
 
-                        <button className="showcase__btn">SEE ALL</button>
+                        <Link to='/event'><button className="showcase__btn">SEE ALL</button></Link>
                     </div>
 
                     <div className="showcase__img-gallery">

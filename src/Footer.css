@@ -1,13 +1,12 @@
 
 .footer{
     height: 150px;
+    width: 100%;
     background-color: black;
     display: flex;
-    
     align-items: center;
     color: white;
-
-
+    margin-top: auto;
 }
 .footer__left-side > img {
     width: 150px;
@@ -34,6 +33,7 @@
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    
 }
 .footer__social-icons{
     display: flex;

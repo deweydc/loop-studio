@@ -19,37 +19,30 @@ function App() {
     <Router>
 
       <div className="App">
-
-
-
+        <Switch className='flex-container'>
+          <Route path='/about'>
+            <About />
+          </Route>
+          <Route path='/careers'>
+            <Careers />
+          </Route>
+          <Route path='/event'>
+            <Event />
+          </Route>
+          <Route path='/products'>
+            <Products />
+          </Route>
+          <Route path='/support'>
+            <Support />
+          </Route>
+          <Route path="/">
+            <Hero />
+            <Content />
+          </Route>
+        </Switch>
+        <Footer />
 
       </div>
-
-      <Switch>
-        <Route path='/about'>
-          <About />
-        </Route>
-        <Route path='/careers'>
-          <Careers />
-        </Route>
-        <Route path='/event'>
-          <Event />
-        </Route>
-        <Route path='/products'>
-          <Products />
-        </Route>
-        <Route path='/support'>
-          <Support />
-        </Route>
-        <Route path="/">
-          <Hero />
-          <Content />
-
-        </Route>
-      </Switch>
-      <Footer />
-
-
 
     </Router>
   );
