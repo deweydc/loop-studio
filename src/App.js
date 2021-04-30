@@ -23,9 +23,9 @@ function App() {
           <Route path='/about'>
             <About />
           </Route>
-          <Route path='/careers'>
+          {/* <Route path='/careers'>
             <Careers />
-          </Route>
+          </Route> */}
           <Route path='/event'>
             <Event />
           </Route>

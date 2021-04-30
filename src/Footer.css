@@ -10,9 +10,7 @@
 }
 .footer__left-side > img {
     width: 150px;
-    
 }
-
 .footer__nav-links{
     display: flex;  
     margin-top: 10px;  
@@ -21,7 +19,6 @@
     /* font-size: .75em; */
     font-weight: 800;
 }
-
 .footer__right-side{
     display: flex;
     justify-content:flex-end;
@@ -32,14 +29,12 @@
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 .footer__social-icons{
     display: flex;
     justify-content: flex-end;
 }
-
 .social-icon{
     font-size: 2.5em;
 }

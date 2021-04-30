@@ -15,11 +15,14 @@ function Nav() {
             </div>
             <nav className='navLinks'>
                 <div className='navLink'>
-                    <Link to='/about'>About</Link>
+                    <Link to='/'>Home</Link>
                 </div>
                 <div className='navLink'>
-                    <Link to="/careers">Careers</Link>
+                    <Link to='/about'>About</Link>
                 </div>
+                {/* <div className='navLink'>
+                    <Link to="/careers">Careers</Link>
+                </div> */}
                 <div className='navLink'>
                     <Link to="/event">Event</Link>
                 </div>

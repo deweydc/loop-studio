@@ -20,11 +20,14 @@ function Footer() {
 
                     <div className='footer__nav-links'>
                         <div className='footer__nav-link'>
-                            <Link to="/about">About</Link>
+                            <Link to="/">Home</Link>
                         </div>
                         <div className='footer__nav-link'>
-                            <Link to="/careers">Careers</Link>
+                            <Link to="/about">About</Link>
                         </div>
+                        {/* <div className='footer__nav-link'>
+                            <Link to="/careers">Careers</Link>
+                        </div> */}
                         <div className='footer__nav-link'>
                             <Link to="/event">Event</Link>
                         </div>
